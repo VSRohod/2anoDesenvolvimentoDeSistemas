@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 2</title>
+    <style>
+        p{
+            /* fonte */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* tamanho da fonte */
+            font-size: 18pt;
+        }
+
+        #conteudo{
+            /* largura */
+            width: 50%;
+            /* cor de fundo */
+            background-color: cornflowerblue;
+            /* margem externa */
+            /* 1 valor - todos lados */
+            /* 2 valores - cima,baixo / esqueda,direita (y,x) */
+            /* 4 valores - cima, direita, baixo , esquerda (relogio) */
+            margin: 10px auto;
+            /* margem interna */
+            padding: 20px;
+            /* arredondamento */
+            border-radius: 10px;
+        }
+
+        .galeria{
+            width: 40%;
+            height: 200px;
+            background-color: rgb(171, 238, 130);
+            border-radius: 100%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<!-- METODO 1 - ATRIBUTOS -->
+<!-- METODO 2 - SELETORES -->
+<body>
+    <div style="width: 100%;background-color: aqua;height: 80px;"></div>
+    <div id="conteudo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quibusdam cumque provident, necessitatibus sit minus adipisci similique! Ab esse assumenda velit nostrum minus dolor neque nemo consectetur, voluptatibus cumque maiores.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptatibus ducimus exercitationem impedit ut vel debitis. Sed obcaecati nostrum sit asperiores, similique repellendus, eum culpa, ullam temporibus ipsam debitis sapiente!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa, maxime libero dolores nesciunt eos neque commodi quas similique blanditiis? Doloribus eaque quod animi pariatur beatae error ducimus deleniti at?</p>
+        <div class="galeria"></div>
+        <div class="galeria"></div>
+    </div>
+</body>
+</html>
