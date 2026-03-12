@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(176, 187, 219);
+}
+
+header, footer{
+    width: 100%;
+    background-color: #4077f6;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+/* Se tiver scroll, não deixe esse código (ou comente) */
+/* caso não tenha scroll, deixe para ficar embaixo */
+footer{
+    position: absolute;
+    bottom: 0%;
+}
+
+main{
+    width: 80%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14pt;
+    color: #4077f6;
+}
+
+.jogo{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    background-color: #dbe3f5;
+}
+
+.descJogo,.imagemJogo{
+    width: 50%;
+    padding: 5px;
+}
+
+.imagemJogo img{
+    width: 100%;
+    border-radius: 5px;
+}
