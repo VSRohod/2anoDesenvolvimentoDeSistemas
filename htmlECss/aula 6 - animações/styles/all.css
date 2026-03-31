@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin:0% ;
+}
+
+:root{
+    --corPrimaria : #0563c0;
+    --corSecundaria : #dfdfdf;
+    --corLink : #5a0aa0;
+    --corTexto : #202020;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: var(--corPrimaria);
+}

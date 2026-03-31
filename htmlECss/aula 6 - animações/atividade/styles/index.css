@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    overflow: hidden;
+}
+
+@keyframes walking {
+    0%{
+        left: -10%;
+    }
+
+    100%{
+        left: 110%;
+    }
+}
+
+#personagem{
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    animation-name: walking;
+    animation-duration: 10s;
+    animation-iteration-count: infinite ;
+}
+
