@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Bouncy;
+    font-weight: normal;
+    src: url('../fonts/bouncy_2/Bouncy-PERSONAL_USE_ONLY.otf');
+}
+
+@font-face {
+    font-family: Nirakolo;
+    font-weight: normal;
+    src: url('../fonts/nirakolu/Nirakolu.otf');
+}
+
+/* @font-face {
+    font-family: Bouncy;
+    font-weight: bold;
+    src: url('../fonts/bouncy_2/Bouncy-Black-PERSONAL_USE_ONLY.otf');
+} */
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --fontePrimaria : Bouncy ;
+    --fontSecundaria : Nirakolo ;
+}
+
+h1{
+    font-family: var(--fontePrimaria);
+}
+
+p{
+    font-family: "Roboto";
+}
